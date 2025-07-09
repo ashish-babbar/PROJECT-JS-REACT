@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import { Grid, Container, CircularProgress, Pagination } from '@mui/material';
 import NavBar from './components/Navbar';
@@ -55,4 +55,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;
